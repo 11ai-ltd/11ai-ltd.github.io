@@ -233,7 +233,7 @@ p { margin: 0 0 1em; }
   -webkit-mask-image: radial-gradient(ellipse at 60% 40%, #000 20%, transparent 75%);
 }
 .hero-grid { position: relative; display: grid; grid-template-columns: 1.05fr 1fr; gap: 56px; align-items: center; }
-.hero h1 { margin-bottom: 24px; }
+.hero h1 { margin-bottom: 24px; font-size: clamp(2.3rem, 4.4vw, 3.6rem); }
 .hero .lead { color: var(--on-dark-muted); }
 .hero-sm { padding: 160px 0 90px; }
 .hero-sm .hero-grid { grid-template-columns: 1fr; }
